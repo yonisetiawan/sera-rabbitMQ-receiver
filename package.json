@@ -1,0 +1,30 @@
+{
+  "name": "sera-rabbitmq-receiver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "dotenv": "^16.3.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "@types/amqplib": "^0.10.4",
+    "@types/body-parser": "^1.19.5",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.1",
+    "amqplib": "^0.10.3",
+    "aws-sdk": "^2.1509.0",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "ts-dotenv": "^0.9.1"
+  }
+}
